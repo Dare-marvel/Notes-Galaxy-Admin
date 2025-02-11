@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard';
 
 function App() {
   const [user, loading] = useAuthState(auth);
+  
 
   if (loading) {
     return <div>Loading...</div>;
